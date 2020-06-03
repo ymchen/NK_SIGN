@@ -1,0 +1,455 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"bordr-c",
+				"border-collapse\tproperty"
+			],
+			[
+				"dj",
+				"Dj_HelloWorld〔module〕"
+			],
+			[
+				"re",
+				"render〔function〕"
+			],
+			[
+				"H",
+				"HttpResponse"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dist/NorthSign.log",
+			"settings":
+			{
+				"buffer_size": 204969,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NK_Sign.py",
+			"settings":
+			{
+				"buffer_size": 8504,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Build With: Python"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Indexing Status"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 197.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Documents/参考文档/mysql 8.txt",
+		"/C/Users/Administrator/Documents/参考文档/新建文本文档.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Git/HelloWorld/Git_book.sql",
+		"/C/Users/Administrator/Documents/ChenYiMin/Git/Remot_CYM/hello-world/b.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Git/Remot_CYM/hello-world/a.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ项目创建.txt",
+		"/C/Users/Administrator/Documents/参考文档/django参考.txt",
+		"/C/soft/谷歌插件安装.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/mysite/settings.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/templates/admin/base_site.html",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/templates/admin/base.html",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/mysite/urls.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/__init__.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/views.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/apps.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/locale/zh_Hant/LC_MESSAGES/django.po",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/locale/zh_Hans/LC_MESSAGES/django.po",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/locale/zh_hans/LC_MESSAGES/django.po",
+		"/C/Program Files (x86)/Python/Lib/site-packages/Django-2.0.1-py3.7.egg/django/contrib/admin/locale/zh_Hant/LC_MESSAGES/django.po",
+		"/C/Program Files (x86)/Python/Lib/site-packages/Django-2.0.1-py3.7.egg/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.po",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/templates/polls/results.html",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/models.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/static/polls/style.css",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/admin.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/templates/polls/detail.html",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/templates/polls/index.html",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/polls/urls.py",
+		"/C/Program Files (x86)/Python/Lib/site-packages/Django-2.0.1-py3.7.egg/django/contrib/admin/templates/admin/base_site.html",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/APP_PSN/apps.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/APP_PSN/models.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/APP_PSN/views.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/DJ_CRM/DJ_CRM/settings.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/APP_PSN/admin.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_HelloWorld/Dj_HelloWorld/urls.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_Sign.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Dj_HelloWorld/Dj_HelloWorld/settings.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dist/NorthSign.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204462,
+								204485
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								5,
+								9,
+								9,
+								19,
+								25,
+								11,
+								101,
+								173,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 58080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "NK_Sign.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								227,
+								12,
+								16,
+								10,
+								10,
+								13,
+								13,
+								188,
+								106,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLTools Result":
+	{
+		"height": 363.0
+	},
+	"output.exec":
+	{
+		"height": 155.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "North.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"XM.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\MI_PYTHON\\xiaomi.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 368.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
