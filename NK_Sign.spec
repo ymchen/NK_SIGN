@@ -1,10 +1,10 @@
-# -*- mode: python ; coding: utf-8 -*-
+# -*- mode: python -*-
 
 block_cipher = None
 
 
-a = Analysis(['C:\\Users\\Administrator\\Documents\\ChenYiMin\\Northking\\NK_Sign.py'],
-             pathex=['C:\\Users\\Administrator\\Documents\\ChenYiMin\\Northking'],
+a = Analysis(['E:\\NorthKing\\NK_SIGN\\NK_SIGN_V1.py'],
+             pathex=['E:\\NorthKing\\NK_SIGN'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -28,6 +28,5 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          upx_exclude=[],
           runtime_tmpdir=None,
           console=True )
