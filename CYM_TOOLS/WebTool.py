@@ -3,10 +3,9 @@
 # @Email:   254906610@qq.com
 # @Date:   2019-10-10 10:09:58
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-04 14:44:58
+# @Last Modified time: 2020-06-08 17:03:02
 import requests
 import datetime
-import LogTool
 class Webtools():
     headers_data = {
         'User-Agent':r'Mozilla'

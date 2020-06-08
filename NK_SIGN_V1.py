@@ -3,14 +3,14 @@
 # @Email:	254906610@qq.com
 # @Date:   2020-06-04 14:39:31
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-08 16:44:05
+# @Last Modified time: 2020-06-08 17:09:13
 import datetime
 import re
 import time
-from   CYM_TOOLS.WebTool import Webtools
-from   CYM_TOOLS.MapTool import Maptools
-from   CYM_TOOLS.UnvsTool import Unvstools
-from   CYM_TOOLS.DataBaseTool import DataBaseTools
+from  CYM_TOOLS.WebTool import Webtools
+from  CYM_TOOLS.MapTool import Maptools
+from  CYM_TOOLS.UnvsTool import Unvstools
+from  CYM_TOOLS.DataBaseTool import DataBaseTools
 unvstool = Unvstools()
 maptool = Maptools('4d7e070d9ca8a48f2894c852eed08f74',600)
 webtool = Webtools()
@@ -99,7 +99,7 @@ delSql = "Delete from nk_sign_d_info  where  date(rec_crt_dt1) = date('"+punchCa
 print(db.DeleteSql(delSql));
 for var_user in userArr:
     # 打卡
-    #sign(var_user)
+    sign(var_user)
     # 查看当月打卡情况    
     #print(signMonRep(var_user))
     # 查看当天打卡情况
@@ -109,4 +109,3 @@ for var_user in userArr:
         print(db.Ins(Insql))
     #print(db.DeleteSql(" truncate table  nk_sign_d_info; "));
     #print(db.query("select * from nk_sign_d_info limit 11"));
-

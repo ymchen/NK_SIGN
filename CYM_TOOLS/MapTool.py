@@ -3,10 +3,10 @@
 # @Email:   254906610@qq.com
 # @Date:   2019-10-15 16:34:23
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-04 16:19:06
+# @Last Modified time: 2020-06-08 17:06:36
 import logging
 import json
-from WebTool import Webtools
+from  CYM_TOOLS.WebTool import Webtools
 import urllib3
 import random
 class Maptools():
