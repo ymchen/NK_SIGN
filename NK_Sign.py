@@ -2,7 +2,7 @@
 # @Author: chenym
 # @Date:   2019-12-16 10:10:13
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-02-03 09:07:23
+# @Last Modified time: 2020-06-05 17:30:07
 import requests
 import time
 import datetime
@@ -23,7 +23,7 @@ class Logger(object):
         'crit':logging.CRITICAL
     }#日志级别关系映射
 
-    def __init__(self,filename,level='info',when='D',backCount=5,fmt='%(asctime)s - %(levelname)s: %(message)s'):
+    def __init__(self,filename,level='info',when='H',backCount=5,fmt='%(asctime)s - %(levelname)s: %(message)s'):
         self.logger = logging.getLogger(filename)
         format_str = logging.Formatter(fmt)#设置日志格式
         self.logger.setLevel(self.level_relations.get(level))#设置日志级别
