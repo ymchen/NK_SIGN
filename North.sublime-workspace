@@ -28,19 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "dist/NorthSign.log",
+			"file": "NK_SIGN_V1.py",
 			"settings":
 			{
-				"buffer_size": 204969,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "NK_Sign.py",
-			"settings":
-			{
-				"buffer_size": 8504,
+				"buffer_size": 4261,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -123,16 +114,25 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/Documents/参考文档/django参考.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/pakeage2.bat",
 		"/C/Users/Administrator/Documents/参考文档/mysql 8.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist/NorthKingUser.ini",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NorthKingUser.ini",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS/DataBaseTool.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_SIGN_V1.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_Sign.py",
+		"/C/Users/Administrator/Documents/ChenYiMin/DJ项目创建.txt",
 		"/C/Users/Administrator/Documents/参考文档/新建文本文档.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist/NorthSign.log",
+		"/C/Users/Administrator/Documents/ChenYiMin/Git/HelloWorld/test1.txt",
 		"/C/Users/Administrator/Documents/ChenYiMin/Git/HelloWorld/Git_book.sql",
 		"/C/Users/Administrator/Documents/ChenYiMin/Git/Remot_CYM/hello-world/b.txt",
 		"/C/Users/Administrator/Documents/ChenYiMin/Git/Remot_CYM/hello-world/a.txt",
-		"/C/Users/Administrator/Documents/ChenYiMin/DJ项目创建.txt",
-		"/C/Users/Administrator/Documents/参考文档/django参考.txt",
 		"/C/soft/谷歌插件安装.txt",
 		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/mysite/settings.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/Dj_Vote/mysite/templates/admin/base_site.html",
@@ -160,7 +160,6 @@
 		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/DJ_CRM/DJ_CRM/settings.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/DJ_TEST1/APP_PSN/admin.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/Dj_HelloWorld/Dj_HelloWorld/urls.py",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_Sign.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/Dj_HelloWorld/Dj_HelloWorld/settings.py"
 	],
 	"find":
@@ -186,6 +185,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"');"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -196,28 +196,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dist/NorthSign.log",
+					"file": "NK_SIGN_V1.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 204969,
+						"buffer_size": 4261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								204462,
-								204485
+								4136,
+								4136
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"c_time":
 							[
 								128,
@@ -247,89 +248,14 @@
 								10,
 								7,
 								228,
-								5,
-								9,
-								9,
+								6,
+								8,
+								17,
 								19,
-								25,
-								11,
-								101,
-								173,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 58080.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "NK_Sign.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 8504,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								227,
-								12,
-								16,
-								10,
-								10,
+								52,
 								13,
-								13,
-								188,
-								106,
+								131,
+								123,
 								113,
 								1,
 								133,
@@ -345,7 +271,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1920.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -391,7 +317,7 @@
 	},
 	"output.exec":
 	{
-		"height": 155.0
+		"height": 248.0
 	},
 	"output.find_results":
 	{

@@ -3,7 +3,7 @@
 # @Email:	254906610@qq.com
 # @Date:   2020-06-04 14:39:31
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-08 17:09:13
+# @Last Modified time: 2020-06-09 17:47:43
 import datetime
 import re
 import time
@@ -95,7 +95,7 @@ def sign(user_name):
 userList = unvstool.getDataKeyValue('NorthingList',"userList")
 userArr = userList.split(",")
 # 循环处理身份信息
-delSql = "Delete from nk_sign_d_info  where  date(rec_crt_dt1) = date('"+punchCardDate+"')"
+delSql = "Delete from nk_sign_log  where  date(rec_crt_tm) = date('"+punchCardDate+"')"
 print(db.DeleteSql(delSql));
 for var_user in userArr:
     # 打卡
@@ -105,7 +105,7 @@ for var_user in userArr:
     # 查看当天打卡情况
     #print(var_user)
     for var_rec in signRepNow(var_user):
-        Insql = db.get_InsertSql("nk_sign_d_info",var_rec)
+        Insql = db.get_InsertSql("nk_sign_log",var_rec)
         print(db.Ins(Insql))
-    #print(db.DeleteSql(" truncate table  nk_sign_d_info; "));
+    print(db.DeleteSql(" truncate table  nk_sign_d_info; "));
     #print(db.query("select * from nk_sign_d_info limit 11"));
