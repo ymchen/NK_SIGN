@@ -19,3 +19,7 @@ doc/**/*.pdf
 *.bak
 
 dist/
+
+*.log
+
+__pycache__
