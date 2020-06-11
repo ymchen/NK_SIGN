@@ -3,7 +3,7 @@
 # @Email:	254906610@qq.com
 # @Date:   2020-06-04 14:39:31
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-09 17:47:43
+# @Last Modified time: 2020-06-11 17:15:42
 import datetime
 import re
 import time
@@ -23,13 +23,6 @@ post_data = {
      'endTime':'17:30'
     ,'flag':'1'
     ,'groupId':'1'
-    ,'latitude':'24.484215'
-    ,'loginName':'yimin.chen'
-    ,'longitude':'118.186415'
-    ,'name':'陈艺敏'
-    ,'place':'福建省厦门市思明区莲前街道中国建设银行(厦门科技支行)厦门市软件园(前埔东路)'
-    ,'projectNo':'RD-17-1022-D47-01'
-    ,'startTime':'09:00'
     ,'to':'cispInsertPunchCardInfoAction'
     }
 cf = unvstool.getDataFromFile(file)
@@ -107,5 +100,4 @@ for var_user in userArr:
     for var_rec in signRepNow(var_user):
         Insql = db.get_InsertSql("nk_sign_log",var_rec)
         print(db.Ins(Insql))
-    print(db.DeleteSql(" truncate table  nk_sign_d_info; "));
     #print(db.query("select * from nk_sign_d_info limit 11"));
