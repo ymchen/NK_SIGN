@@ -3,7 +3,7 @@
 # @Email:	254906610@qq.com
 # @Date:   2020-06-04 14:39:31
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-11 17:15:42
+# @Last Modified time: 2020-06-12 07:26:30
 import datetime
 import re
 import time
@@ -12,7 +12,7 @@ from  CYM_TOOLS.MapTool import Maptools
 from  CYM_TOOLS.UnvsTool import Unvstools
 from  CYM_TOOLS.DataBaseTool import DataBaseTools
 unvstool = Unvstools()
-maptool = Maptools('4d7e070d9ca8a48f2894c852eed08f74',600)
+maptool = Maptools('4d7e070d9ca8a48f2894c852eed08f74',300)
 webtool = Webtools()
 db = DataBaseTools()
 month = unvstool.getCurMon()
@@ -28,12 +28,31 @@ post_data = {
 cf = unvstool.getDataFromFile(file)
 addr = '观日路38号'
 def signMonRep(user_name):
-
+    sign_info_list =[]
+    i = 0
     logon_url = 'http://111.203.253.37:8201/nkcisp/mobile-base.action?employeeId='+user_name+'&month='+month+'&to=cispQueryAttendanceByEmployeeAction'
     logon_info = webtool.web_Get(logon_url).text
     logon_json = unvstool.toJson(logon_info)
     employeeInfos = logon_json['RSP_BODY']['employeeInfos']
-    return employeeInfos
+    for var_rec in employeeInfos:
+        var_list  = [i]
+        var_list.append(var_rec['uuid'])
+        var_list.append(var_rec['loginName'])
+        var_list.append(var_rec['name'])
+        var_list.append(var_rec['leaveTime'])
+        var_list.append(var_rec['workStatus'])
+        var_list.append(var_rec['overTime'])
+        var_list.append(var_rec['attendanceDate'])
+        var_list.append(var_rec['ifCheck'])
+        var_list.append(var_rec['memo'])
+        var_list.append(var_rec['checkTime'])
+        var_list.append(var_rec['checkMini'])
+        var_list.append(var_rec['projectNo'])
+        var_list.append(var_rec['groupId'])
+        var_list.append(month)
+        i = i+1
+        sign_info_list.append(var_list)
+    return sign_info_list
 def signRepNow(user_name):
     sign_info_list =[]
     i = 0
@@ -52,6 +71,7 @@ def signRepNow(user_name):
         var_list.append(employeeId)
         var_list.append(employeeName)
         var_list.append(punchCardDate)
+        var_list.append(projectNo)
         var_list.append(var_rec['punchCardTime'])
         var_list.append(var_rec['punchPlace'])
         i = i+1
@@ -90,14 +110,19 @@ userArr = userList.split(",")
 # 循环处理身份信息
 delSql = "Delete from nk_sign_log  where  date(rec_crt_tm) = date('"+punchCardDate+"')"
 print(db.DeleteSql(delSql));
+delSql = "Delete from nk_sign_m_log  where  col15 = '"+month+"'"
+print(db.DeleteSql(delSql));
 for var_user in userArr:
     # 打卡
     sign(var_user)
-    # 查看当月打卡情况    
-    #print(signMonRep(var_user))
     # 查看当天打卡情况
     #print(var_user)
     for var_rec in signRepNow(var_user):
         Insql = db.get_InsertSql("nk_sign_log",var_rec)
         print(db.Ins(Insql))
-    #print(db.query("select * from nk_sign_d_info limit 11"));
+    # 查看当月打卡情况
+    #print(signMonRep(var_user))
+    for var_rec in signMonRep(var_user):
+        Insql = db.get_InsertSql("nk_sign_m_log",var_rec)
+        print(db.Ins(Insql))
+db.Unconn()

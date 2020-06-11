@@ -27,15 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "NK_SIGN_V1.py",
-			"settings":
-			{
-				"buffer_size": 4261,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -114,17 +105,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking"
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/build",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS/__pycache__",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_SIGN_V1.py",
+		"/C/Users/Administrator/Documents/参考文档/mysql 8.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS/DataBaseTool.py",
 		"/C/Users/Administrator/Documents/参考文档/django参考.txt",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/pakeage2.bat",
-		"/C/Users/Administrator/Documents/参考文档/mysql 8.txt",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist/NorthKingUser.ini",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NorthKingUser.ini",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS/DataBaseTool.py",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_SIGN_V1.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_Sign.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/DJ项目创建.txt",
 		"/C/Users/Administrator/Documents/参考文档/新建文本文档.txt",
@@ -196,87 +191,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "NK_SIGN_V1.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4136,
-								4136
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								228,
-								6,
-								8,
-								17,
-								19,
-								52,
-								13,
-								131,
-								123,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1920.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -317,7 +233,7 @@
 	},
 	"output.exec":
 	{
-		"height": 248.0
+		"height": 246.0
 	},
 	"output.find_results":
 	{

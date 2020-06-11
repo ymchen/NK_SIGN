@@ -3,7 +3,7 @@
 # @Email:   254906610@qq.com
 # @Date:   2019-12-16 15:40:40
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-09 17:15:24
+# @Last Modified time: 2020-06-12 06:45:26
 
 import pymysql
 
@@ -21,16 +21,16 @@ class DataBaseTools():
             return data
         except:
             self.con.rollback()
-            self.cursor.close()
     def Ins(self,sql):
-        connection = self.con
-        cursor = self.cursor
         print("[Insert_Sql Info]："+sql)
         rowcount = 0
-        cursor.execute(sql)
-        rowcount = cursor.rowcount
-        connection.commit()
-        return rowcount
+        try:
+            self.cursor.execute(sql)
+            rowcount = self.cursor.rowcount
+            self.con.commit()
+            return rowcount
+        except:
+            self.con.rollback()
     def DeleteSql(self,sql):
         print("[DeleteSql Info]："+sql)
         try:
@@ -40,7 +40,9 @@ class DataBaseTools():
             return rowcount
         except:
             self.con.rollback()
-            self.cursor.close()
+    def Unconn(self):
+        self.cursor.close();
+        self.con.close();
     def get_InsertSql(self,tableNm,List):
         dataTuple = tuple(List)
         dataStr = str(dataTuple)
