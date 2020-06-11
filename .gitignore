@@ -17,3 +17,5 @@ doc/*.txt
 doc/**/*.pdf
 
 *.bak
+
+dist/
