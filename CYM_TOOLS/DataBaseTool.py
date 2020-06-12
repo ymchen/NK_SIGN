@@ -3,14 +3,14 @@
 # @Email:   254906610@qq.com
 # @Date:   2019-12-16 15:40:40
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-12 06:45:26
+# @Last Modified time: 2020-06-12 20:30:51
 
 import pymysql
 
 class DataBaseTools():
     def __init__(self):
         self.con = pymysql.connect("49.235.122.74","carry","carry","krcdb")
-        #self.con = pymysql.connect("localhost", "root", "root", "qqdb")
+        #self.con = pymysql.connect("localhost", "root", "root", "ccbsign")
         self.cursor = self.con.cursor()
     def query(self,sql):
         print("[Qurey_Sql Info]："+sql)
@@ -40,9 +40,19 @@ class DataBaseTools():
             return rowcount
         except:
             self.con.rollback()
+    def ExecSql(self,sql):
+        print("[Exec Info]："+sql)
+        try:
+            self.cursor.execute(sql)
+            rowcount = self.cursor.rowcount
+            self.con.commit()
+            return rowcount
+        except:
+            self.con.rollback()
     def Unconn(self):
         self.cursor.close();
         self.con.close();
+        print("[Unconn Info]："+"释放数据库链接。")
     def get_InsertSql(self,tableNm,List):
         dataTuple = tuple(List)
         dataStr = str(dataTuple)
