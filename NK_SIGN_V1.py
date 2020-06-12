@@ -3,7 +3,7 @@
 # @Email:	254906610@qq.com
 # @Date:   2020-06-04 14:39:31
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-12 07:26:30
+# @Last Modified time: 2020-06-12 07:38:46
 import datetime
 import re
 import time
@@ -12,7 +12,7 @@ from  CYM_TOOLS.MapTool import Maptools
 from  CYM_TOOLS.UnvsTool import Unvstools
 from  CYM_TOOLS.DataBaseTool import DataBaseTools
 unvstool = Unvstools()
-maptool = Maptools('4d7e070d9ca8a48f2894c852eed08f74',300)
+maptool = Maptools('4d7e070d9ca8a48f2894c852eed08f74',150)
 webtool = Webtools()
 db = DataBaseTools()
 month = unvstool.getCurMon()
