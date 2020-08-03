@@ -107,19 +107,17 @@
 	[
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/build",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS/__pycache__",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist"
 	],
 	"file_history":
 	[
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_SIGN_V1.py",
-		"/C/Users/Administrator/Documents/参考文档/mysql 8.txt",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NorthKingUser.ini",
+		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist/NorthKingUser.ini",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/CYM_TOOLS/DataBaseTool.py",
+		"/C/Users/Administrator/Documents/参考文档/mysql 8.txt",
 		"/C/Users/Administrator/Documents/参考文档/django参考.txt",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/pakeage2.bat",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/dist/NorthKingUser.ini",
-		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NorthKingUser.ini",
 		"/C/Users/Administrator/Documents/ChenYiMin/Northking/NK_Sign.py",
 		"/C/Users/Administrator/Documents/ChenYiMin/DJ项目创建.txt",
 		"/C/Users/Administrator/Documents/参考文档/新建文本文档.txt",
@@ -233,7 +231,7 @@
 	},
 	"output.exec":
 	{
-		"height": 246.0
+		"height": 178.0
 	},
 	"output.find_results":
 	{

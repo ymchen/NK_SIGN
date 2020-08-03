@@ -25,3 +25,6 @@ dist/
 __pycache__/
 
 North.sublim*
+
+
+*.sublime-project

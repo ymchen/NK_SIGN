@@ -3,7 +3,7 @@
 # @Email:	254906610@qq.com
 # @Date:   2020-06-04 14:39:31
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-12 07:38:46
+# @Last Modified time: 2020-07-14 15:00:19
 import datetime
 import re
 import time
@@ -20,10 +20,16 @@ punchCardDate = unvstool.getCurDate()
 file = "NorthKingUser.ini"
 sign_url = 'http://111.203.253.37:8201/nkcisp/mobile-base.action?to=cispInsertPunchCardInfoAction'
 post_data = {
-     'endTime':'17:30'
-    ,'flag':'1'
-    ,'groupId':'1'
-    ,'to':'cispInsertPunchCardInfoAction'
+         'endTime':'17:30'
+        ,'flag':'1'
+        ,'groupId':'1'
+        ,'latitude':'24.484215'
+        ,'loginName':'yimin.chen'
+        ,'longitude':'118.186415'
+        ,'name':'陈艺敏'
+        ,'place':'福建省厦门市思明区莲前街道中国建设银行(厦门科技支行)厦门市软件园(前埔东路)'
+        ,'projectNo':'RD-17-1022-D47-01'
+        ,'startTime':'09:00'
     }
 cf = unvstool.getDataFromFile(file)
 addr = '观日路38号'
