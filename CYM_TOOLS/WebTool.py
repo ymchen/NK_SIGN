@@ -3,13 +3,14 @@
 # @Email:   254906610@qq.com
 # @Date:   2019-10-10 10:09:58
 # @Last Modified by:   chenym
-# @Last Modified time: 2020-06-08 17:03:02
+# @Last Modified time: 2020-08-03 11:07:07
 import requests
 import datetime
 class Webtools():
     headers_data = {
         'User-Agent':r'Mozilla'
         ,'Connection':'keep-alive'
+        ,'CID':'ab2250acfe517c6ef7489702834142dd'
         }
     def __init__(self):
         self.session = requests.Session()
